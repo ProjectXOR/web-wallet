@@ -21,8 +21,8 @@ export function createTesting (t: TFunction): LinkOption[] {
       info: 'crust',
       text: t('rpc.crust.network', 'Oracol XOR Testnet', { ns: 'apps-config' }),
       providers: {
-        'Node 1': 'wss://api.crust.network/',
-        'Node 2': 'wss://api.decloudf.com/'
+        'Node 1': 'wss://ws.oracol.org/',
+        'Node 2': 'wss://ws.oracol.org/'
       }
     },
 
