@@ -5,7 +5,7 @@
 // the actual RPC node it is corrected to (system.name RPC)
 
 // defaults
-const emptyColor = '#99999';
+const emptyColor = 'c';
 
 // based on chain name
 // alphabetical
@@ -120,7 +120,7 @@ export const chainColors: Record<string, any> = [
   ['ChainX', chainChainx],
   ['Clover', chainClover],
   ['Oracol', chainCrust],
-  ['Oracol', chainCrust],
+  ['Oracol XOR Testnet', chainCrust],
   ['darwinia cc1', chainDarwinia],
   ['Darwinia Crab', chainCrab],
   ['Darwinia PC2', chainRoccoDarwinia],
