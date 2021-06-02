@@ -4,6 +4,7 @@
 import type { OverrideBundleDefinition } from '@polkadot/types/types';
 
 import acala from './acala';
+import oracol from './oracol';
 import apron from './apron';
 import aresParachain from './ares-parachain';
 import bifrost from './bifrost';
@@ -80,6 +81,7 @@ import zero from './zero';
 // NOTE: The mapping is done from specName in state.getRuntimeVersion
 const spec: Record<string, OverrideBundleDefinition> = {
   Crab: crab,
+  'Oracol': oracol,
   Darwinia: darwinia,
   'Darwinia Crab PC2': darwiniaParachain,
   'Darwinia PC2': darwiniaParachain,
